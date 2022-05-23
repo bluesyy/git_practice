@@ -1,0 +1,17 @@
+Git command line
+
+
+$ git remote add 임의 https://github.com/bluesyy/Java.git
+
+이후 git remote 와 git remote -v 로 확인
+
+
+최초 pull
+
+$ git pull java main --allow-unrelated-histories
+
+git add . 
+
+git commit -m '메세지'
+
+git push 임의 main
